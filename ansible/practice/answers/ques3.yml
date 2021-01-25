@@ -1,0 +1,19 @@
+- hosts: node1.lw.com
+  tasks:
+          - name: install httpd package
+            package:
+                  name: httpd
+                  state: present
+          - name: expose the ports
+            firewalld:
+                  port: 80/tcp
+                  permanent: yes
+                  state: enabled 
+          - name: copy content
+            copy:
+                  src: /root/ansible/content/mypage.html
+                  dest: /var/www/html
+          - name: start services
+            service:
+                  name: httpd
+                  state: started           

@@ -1,0 +1,2 @@
+Create a httpd_install.yml file to Install the httpd package, start the service & enabled it. Firewall should be running and should allow the port 80 to access the web page on to node2.lw.com
+The content o should be visible as: “This is node2.lw.com”

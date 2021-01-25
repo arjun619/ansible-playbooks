@@ -1,0 +1,5 @@
+On all the nodes create a file name “/root/statsInfo” contains the information of the nodes that respectively storing information of RAM, memory on the system as:
+RAM = 
+cpu =
+storage =
+ip =

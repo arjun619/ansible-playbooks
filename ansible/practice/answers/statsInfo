@@ -1,0 +1,4 @@
+RAM = "{{ ansible_facts['memtotal_mb'] }}"
+cpu= "{{ ansible_facts['processor'] }}"
+storage= "{{ ansible_facts['devices']['sda']['partitions']['sda2']['size'] }}"
+ip= "{{ ansible_facts['all_ipv4_addresses'] }}"

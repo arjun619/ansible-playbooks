@@ -1,0 +1,6 @@
+Install the packages using different approaches as roles or variables or simple loop or anything And discuss or ask which one should use,
+	- net-tools
+	- python3
+	- firefox
+	- vlc
+	- vsftpd

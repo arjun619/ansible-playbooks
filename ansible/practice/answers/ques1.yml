@@ -1,0 +1,11 @@
+- hosts: nodes
+  vars:
+   - apps:
+     - "net-tools"
+     - "python3"
+     - "vsftpd"
+  tasks:
+  - name: install packages
+    package:
+     name: "{{ apps }}"
+     state: present

@@ -1,0 +1,6 @@
+- hosts: nodes
+  tasks:
+  - name: send the file to slave nodes
+    template:
+            src: /root/ansible/statsInfo
+            dest: /root/

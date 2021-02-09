@@ -1,0 +1,7 @@
+ Create a role to install the httpd on the node1 having the following features:
+	Document Root: /webdev
+	Port Number: 8080
+	Set the owner & group of /webdev to apache
+	Set the group ID special permission
+	Enable & start the web service allows the firewall rule to connect
+	When web is access the content to be visible would be: “This is node1.lw.com” 

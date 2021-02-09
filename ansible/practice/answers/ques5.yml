@@ -1,0 +1,4 @@
+- hosts: node1.lw.com
+  roles: 
+  - /etc/ansible/roles/httpd_roler
+   
